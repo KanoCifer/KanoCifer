@@ -45,7 +45,7 @@
   <samp>
     <a href="https://github.com/KanoCifer/aish"><strong>aish</strong></a>
     &ensp;·&ensp;
-    <sub>AI shell · natural language CLI</sub>
+    <sub>AI shell</sub>
   </samp>
   <br>
   <samp>
@@ -55,27 +55,12 @@
   </samp>
   <br>
   <samp>
-    <a href="https://github.com/KanoCifer/Flask-Example"><strong>Flask-Example</strong></a>
-    &ensp;·&ensp;
-    <sub>blog · AI · fishing analytics</sub>
-  </samp>
-  <br>
-  <samp>
     <a href="https://github.com/KanoCifer/git-commit-format"><strong>git-commit-format</strong></a>
     &ensp;·&ensp;
-    <sub>conventional commits</sub>
+    <sub>Conventional Commits</sub>
   </samp>
 </p>
 
 <br>
-<br>
-
----
-
-<br>
-
-<p align="center">
-  <samp><sub><code>quiet · clean · intentional</code></sub></samp>
-</p>
 
 <br>
