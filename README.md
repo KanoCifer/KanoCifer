@@ -51,8 +51,8 @@
 </p>
 
 <p align="center">
-  <img height="152" src="https://github-readme-stats.vercel.app/api?username=KanoCifer&show_icons=true&hide_border=true&include_all_commits=true&bg_color=00000000&text_color=666666&icon_color=888888&title_color=444444&hide_rank=true" />
-  <img height="152" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KanoCifer&layout=compact&hide_border=true&bg_color=00000000&text_color=666666&title_color=444444&langs_count=6" />
+  <img height="152" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=KanoCifer&show_icons=true&hide_border=true&include_all_commits=true&bg_color=00000000&text_color=666666&icon_color=888888&title_color=444444&hide_rank=true" />
+  <img height="152" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=KanoCifer&layout=compact&hide_border=true&bg_color=00000000&text_color=666666&title_color=444444&langs_count=6" />
   <img height="152" src="https://github-readme-streak-stats.herokuapp.com/?user=KanoCifer&hide_border=true&background=00000000&text_color=666666&fire=888888&currStreakNum=444444&sideNums=444444&currStreakLabel=888888&sideLabels=666666&dates=888888" />
 </p>
 
@@ -61,7 +61,3 @@
 </p>
 
 <br>
-
-<p align="center">
-  <samp>— 黒猫 —</samp>
-</p>
