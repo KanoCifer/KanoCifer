@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/57797351?s=120" width="80" height="80" style="border-radius:50%;" alt="avatar" />
+  <img src="https://avatars.githubusercontent.com/u/57797351?s=120" width="160" height="160" style="border-radius:50%;" alt="avatar" />
 </p>
 
 <p align="center">
@@ -31,12 +31,12 @@
 
 <p align="center">
   <sub><strong>Languages</strong></sub><br>
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=py,ts,js,html,css&theme=light" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=py,ts,js,html,css,golang&theme=light" />
 </p>
 
 <p align="center">
   <sub><strong>Frameworks &amp; Runtimes</strong></sub><br>
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=fastapi,flask,vue,react,nodejs,vite&theme=light" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=fastapi,flask,vue,react,gin&theme=light" />
 </p>
 
 <p align="center">
