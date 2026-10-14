@@ -3,18 +3,25 @@
 </p>
 
 <p align="center">
-  <strong>KanoCifer</strong><br>
+  <strong>KanoCifer</strong>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1600&color=8B949E&center=true&width=640&height=52&lines=Building+kanocifer.chat;nomu.kanocifer.chat;Python+/+Go+/+TypeScript&repeat=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1600&color=57606A&center=true&width=640&height=52&lines=Building+kanocifer.chat;nomu.kanocifer.chat;Python+/+Go+/+TypeScript&repeat=true">
+    <img alt="Building kanocifer.chat" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1600&color=57606A&center=true&width=640&height=52&lines=Building+kanocifer.chat;nomu.kanocifer.chat;Python+/+Go+/+TypeScript&repeat=true" width="640" height="52">
+  </picture>
+</p>
+
+<p align="center">
   <sub>LiuDeTao · A quiet builder · 静かに、確かに</sub>
 </p>
 
 <p align="center">
-  在做 <a href="https://kanocifer.chat">kanocifer.chat</a> —— 我的个人网站<br>
-  同时在做<a href="https://nomu.kanocifer.chat">Nomu</a>
-  <sub>主力 Python / Go / TypeScript，大部分时间花在它底下的基础设施上。</sub>
-</p>
-
-<p align="center">
-  <a href="https://kanocifer.chat">Website</a>
+  <a href="https://kanocifer.chat">Kanocifer.chat</a>
+  &ensp;·&ensp;
+  <a href="https://nomu.kanocifer.chat">Nomu</a>
   &ensp;·&ensp;
   <a href="https://github.com/KanoCifer?tab=following">Following</a>
 </p>
@@ -67,8 +74,23 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=KanoCifer&bg_color=00000000&color=8b949e&line=58a6ff&point=58a6ff&area=true&hide_border=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=KanoCifer&bg_color=00000000&color=57606a&line=0969da&point=0969da&area=true&hide_border=true">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=KanoCifer&bg_color=00000000&color=57606a&line=0969da&point=0969da&area=true&hide_border=true" alt="Contribution Activity Graph" width="90%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=KanoCifer&theme=dark&hide_border=true&background=00000000">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=KanoCifer&hide_border=true&background=00000000">
+    <img height="120" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=KanoCifer&hide_border=true&background=00000000">
   </picture>
 </p>
+
+<!--
+  ⚠️ 依赖清单（都已实测可用，但都是第三方公共实例）：
+    - stats / top-langs → 本地 SVG，由 .github/workflows/grs.yml 用自己的 PAT 生成
+      （classic token，scope = repo + read:user，所以统计包含私有仓库）
+    - typing header / skill icons / streak → 远程公共实例，可能哪天就挂了
+
+  已确认挂掉、不要再用的：
+    - github-readme-activity-graph.vercel.app → Vercel 部署被暂停（"Deployment Paused"）
+    - github-readme-stats.anuraghazra1.vercel.app → 官方仓库已停止维护
+    - github-readme-streak-stats.herokuapp.com → Heroku 免费层停用，域名已废弃
+    - DenverCoder1/github-profile-trophy → 仓库已 404
+
+  如果哪天这里又裂图了，优先考虑把远程卡片也搬进自己的 Actions 生成。
+-->
