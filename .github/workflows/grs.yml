@@ -1,0 +1,78 @@
+name: Update README cards
+
+# 这套卡片由 GitHub Actions 生成成静态 SVG 提交回本仓库，
+# 好处有两个：
+#   1. 不依赖任何第三方图床的在线可用性；
+#   2. 用 secrets.PAT（自己的 classic token，scope = repo + read:user）代替
+#      GITHUB_TOKEN，因此统计口径包含**私有仓库**的提交与语言分布。
+#
+# ⚠️ 首次使用前必须做这一步，否则卡片会生成失败或数据为空：
+#   Settings → Secrets and variables → Actions → New repository secret
+#   Name: PAT
+#   Value: 一个 classic personal access token，勾选 scope `repo` + `read:user`
+#
+#   ⚠️ 必须用 classic token。fine-grained token 只能读到公开提交，
+#      私有统计会直接失效（这是官方文档明确标注的限制）。
+
+on:
+  schedule:
+    # 每天 UTC 03:17 跑一次（刻意避开整点，减少 Actions 队列高峰）
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-cards
+  cancel-in-progress: true
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&theme=dark&hide_border=true&hide_rank=true
+          path: profile/stats-dark.svg
+          token: ${{ secrets.PAT }}
+
+      - name: Stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&theme=default&hide_border=true&hide_rank=true
+          path: profile/stats-light.svg
+          token: ${{ secrets.PAT }}
+
+      - name: Top languages card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=dark&hide_border=true
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.PAT }}
+
+      - name: Top languages card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=default&hide_border=true
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.PAT }}
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          if git diff --staged --quiet; then
+            echo "卡片无变化，跳过提交。"
+            exit 0
+          fi
+          git commit -m "chore: update README cards"
+          git push
