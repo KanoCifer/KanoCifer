@@ -34,15 +34,20 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3>KanoCifer</h3>
       <p>我的主力产品，我的个人网站。</p>
       <p><code>Vue</code> <code>React</code> <code>Python</code> <code>Go</code></p>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3>Nomu</h3>
       <p>Chrome浏览器插件</p>
       <p><code>Go</code> <code>React</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/KanoCifer/DevTaskMcp">DevTaskMcp</a></h3>
+      <p>Agent 原生的开发任务看板，把需求调研成可验收的任务，端到端执行。</p>
+      <p><code>Python</code> <code>MCP</code> <code>Claude Code</code></p>
     </td>
   </tr>
 </table>
