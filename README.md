@@ -44,6 +44,8 @@
       <p>Chrome浏览器插件</p>
       <p><code>Go</code> <code>React</code></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/KanoCifer/DevTaskMcp">DevTaskMcp</a></h3>
       <p>Agent 原生的开发任务看板，把需求调研成可验收的任务，端到端执行。</p>
