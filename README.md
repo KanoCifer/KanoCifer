@@ -35,12 +35,12 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>KanoCifer</h3>
+      <h3><a href="https://kanocifer.chat">kanocifer.chat</a></h3>
       <p>我的主力产品，我的个人网站。</p>
       <p><code>Vue</code> <code>React</code> <code>Python</code> <code>Go</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3>Nomu</h3>
+        <h3><a href="https://nomu.kanocifer.chat">Nomu</a></h3>
       <p>Chrome浏览器插件</p>
       <p><code>Go</code> <code>React</code></p>
     </td>
@@ -52,7 +52,7 @@
       <p><code>Python</code> <code>MCP</code> <code>Claude Code</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/KanoCifer/DevTaskMcp">渔碌yulu</a></h3>
+      <h3><a href="https://github.com/KanoCifer/fishing">渔碌yulu</a></h3>
       <p>路亚，台钓，记录钓点和天气数据，提供垂钓建议</p>
       <p><code>Go</code> <code>uniapp</code> <code>wx</code></p>
     </td>
