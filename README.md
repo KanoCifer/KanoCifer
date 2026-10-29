@@ -58,10 +58,12 @@
     </td>
   </tr>
   <tr>
-    <td width="100%" valign="top">
-      <h3><a href="https://github.com/KanoCifer/DevTaskMcp">QWX</a></h3>
+    <td width="50%">
+      <h3><a href="https://github.com/KanoCifer/qwx">QWX</a></h3>
       <p>Qweather Golang SDK</p>
       <p><code>Golang</code></p>
+    </td>
+    <td width="50%">
     </td>
   </tr>
 </table>
