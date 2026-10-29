@@ -57,6 +57,13 @@
       <p><code>Go</code> <code>uniapp</code> <code>wx</code></p>
     </td>
   </tr>
+  <tr>
+    <td width="100%" valign="top">
+      <h3><a href="https://github.com/KanoCifer/DevTaskMcp">QWX</a></h3>
+      <p>Qweather Golang SDK</p>
+      <p><code>Golang</code></p>
+    </td>
+  </tr>
 </table>
 
 ## 🧰 Stack
