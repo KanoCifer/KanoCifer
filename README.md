@@ -64,6 +64,9 @@
       <p><code>Golang</code></p>
     </td>
     <td width="50%">
+        <h3><a href="https://github.com/KanoCifer/qwx-py">QWX-Py</a></h3>
+        <p>Qweather Python SDK</p>
+        <p><code>Python</code><code>PydanticV2</code><code>httpx</code></p>
     </td>
   </tr>
 </table>
